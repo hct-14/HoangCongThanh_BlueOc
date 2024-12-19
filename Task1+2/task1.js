@@ -15,7 +15,6 @@ function mostFrequentStringLengths(strings) {
     
     return result;
 }
-
 const testCases = [
     { input: ['a', 'ab', 'abc', 'cd', 'def', 'gh'], expected: ['ab', 'cd', 'gh'] },
 

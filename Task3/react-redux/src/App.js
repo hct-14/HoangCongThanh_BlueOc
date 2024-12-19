@@ -1,6 +1,6 @@
 import React from 'react';
 import PostList from './components/PostList';
-import { ToastContainer } from 'react-toastify'; // Import ToastContainer
+import { ToastContainer } from 'react-toastify'; 
 
 const App = () => {
   return (

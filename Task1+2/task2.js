@@ -22,7 +22,6 @@ const testCases = [
  
 ];
 
-// Kiểm thử tất cả các test case
 testCases.forEach((testCase, index) => {
     const result = sumOfTopTwoIntegers(testCase.input);
     console.log('Test case ${index}:');
