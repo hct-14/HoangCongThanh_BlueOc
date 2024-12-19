@@ -15,7 +15,7 @@ export const fetchPosts = (page = 1, limit = 20) => async dispatch => {
           posts: response.data,
           page: page,
           limit: limit,
-          total: parseInt(response.headers['x-total-count'], 10),  // Đọc tổng số bài viết từ header (nếu có)
+          total: parseInt(response.headers['x-total-count'], 10), 
         }
       });
     } catch (error) {

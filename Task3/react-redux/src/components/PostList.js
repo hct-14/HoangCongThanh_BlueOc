@@ -10,7 +10,7 @@ const PostList = () => {
   const { posts, page, limit, total } = useSelector(state => state.posts);
   
   useEffect(() => {
-    dispatch(fetchPosts(page, limit)); // Fetch posts when the component mounts or page changes
+    dispatch(fetchPosts(page, limit)); 
   }, [dispatch, page, limit]);
 
   const totalPages = Math.ceil(total / limit);
